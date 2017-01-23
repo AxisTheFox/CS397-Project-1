@@ -13,5 +13,19 @@ namespace Part1
         {
 
         }
+
+        protected void btnCalculate_Click(object sender, EventArgs e)
+        {
+            double trainingHeartRate = calculateTHR();
+            lblResult.Text = "Your training heart rate is: " + trainingHeartRate.ToString();
+        }
+
+        private double calculateTHR()
+        {
+            int age = int.Parse(tbxAge.Text);
+            int restingHeartRate = int.Parse(tbxRestingHeartRate.Text);
+            int maxHeartRate = 220 - age;
+            return (maxHeartRate - restingHeartRate) * 0.6 + restingHeartRate;
+        }
     }
 }

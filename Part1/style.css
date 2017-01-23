@@ -1,20 +1,38 @@
 ﻿body {
-    background-color: #000000;
+    background-color: #000;
     color: #fff;
+    vertical-align: central;
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    text-align: center;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#application {
+    left: 33%;
+}
+
+.textbox {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border: solid 1px #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 35px;
 }
 
 .button {
     color: #fff;
-    background-color:#2e71cc;
-    padding:10px;
-    border:none 0px transparent;
+    background-color: #3e3e42;
+    padding: 10px;
+    border: none 0px transparent;
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

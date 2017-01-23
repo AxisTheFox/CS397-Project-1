@@ -4,24 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>THR Calculator</title>
+    <title>Training Heart Rate Calculator</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <h1>Training Heart Rate Calculator</h1>
+    <h1>Training Heart Rate Calculator</h1>
+    <div id="application">
         <br />
         <p>Your Age: 
-            <asp:TextBox ID="tbxAge" runat="server"></asp:TextBox>
+            <asp:TextBox ID="tbxAge" CssClass="textbox" runat="server"></asp:TextBox>
         </p>
         <p>Your Resting Heart Rate: 
-            <asp:TextBox ID="tbxRestingHeartRate" runat="server"></asp:TextBox>
+            <asp:TextBox ID="tbxRestingHeartRate" CssClass="textbox" runat="server"></asp:TextBox>
         </p>
-        <asp:Button ID="btnCalculate" CssClass="button" runat="server" Text="Calculate" />
+        <asp:Button ID="btnCalculate" CssClass="button" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
         <br />
         <br />
-        <asp:Label ID="lblResult" CssClss="result" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblResult" CssClass="result" runat="server" Text=""></asp:Label>
     </div>
     </form>
 </body>
