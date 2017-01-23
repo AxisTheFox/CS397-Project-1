@@ -1,0 +1,21 @@
+﻿body {
+    background-color: #000000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    color: #fff;
+    background-color:#2e71cc;
+    padding:10px;
+    border:none 0px transparent;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
