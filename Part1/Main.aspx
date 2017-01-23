@@ -19,6 +19,9 @@
             <asp:TextBox ID="tbxRestingHeartRate" runat="server"></asp:TextBox>
         </p>
         <asp:Button ID="btnCalculate" CssClass="button" runat="server" Text="Calculate" />
+        <br />
+        <br />
+        <asp:Label ID="lblResult" CssClss="result" runat="server" Text=""></asp:Label>
     </div>
     </form>
 </body>

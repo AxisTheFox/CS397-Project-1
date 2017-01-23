@@ -19,3 +19,7 @@ h1 {
     font-weight: lighter;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.result {
+    font-size: 26px;
+}
